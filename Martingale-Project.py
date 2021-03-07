@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 """Testing Martingale Betting Strategy
 Roulette: American Roulette with 38 slots with numbers 1-36, 0, and 00
 Betting Conditions: Betting on black"""
@@ -109,7 +103,7 @@ def figure1_graph(z):
     axes = plt.gca()
     axes.set_xlim([0,300])
     axes.set_ylim([-150,100])
-    plt.title("Figure 1")
+    plt.title("Figure 1 - Simulation of 10 episodes of 1000 sequential spins with unlimited funds")
     plt.xlabel("Number of Spins")
     plt.ylabel("Winnings")
     plt.legend(['round 1','round 2','round 3','round 4','round 5','round 6','round 7','round 8','round 9','round 10',])
@@ -128,7 +122,7 @@ def figure2_graph(z):
     axes = plt.gca()
     axes.set_xlim([0,300])
     axes.set_ylim([-300,200])
-    plt.title("Figure 2")
+    plt.title("Figure 2 - Simulation of 1000 episodes of 1000 sequential spins with unlimited funds")
     plt.xlabel("Number of Spins")
     plt.ylabel("Winnings")
     plt.legend(['mean','above line','below line'])
@@ -147,7 +141,7 @@ def figure3_graph(z):
     axes = plt.gca()
     axes.set_xlim([0,300])
     axes.set_ylim([-256,100])
-    plt.title("Figure 3")
+    plt.title("Figure 3 - Simulation of 1000 episodes of 1000 sequential spins with unlimited funds")
     plt.xlabel("Number of Spins")
     plt.ylabel("Winnings")
     plt.legend(['median','above line','below line'])
@@ -167,9 +161,9 @@ def figure4_graph(m):
     axes = plt.gca()
     axes.set_xlim([0,300])
     axes.set_ylim([-256,200])
-    plt.title("Figure 4")
+    plt.title("Figure 4 - Simulation of 1000 episodes of 1000 sequential spins with funds of $256")
     plt.xlabel("Number of Spins")
-    plt.ylabel("winnings")
+    plt.ylabel("Winnings")
     plt.legend(['mean','above line','below line'])
     plt.show()
 
@@ -186,9 +180,9 @@ def figure5_graph(m):
     axes = plt.gca()
     axes.set_xlim([0,300])
     axes.set_ylim([-256,100])
-    plt.title("Graph")
-    plt.xlabel("bets")
-    plt.ylabel("winnings")
+    plt.title("Figure 5 - Simulation of 1000 episodes of 1000 sequential spins with funds of $256")
+    plt.xlabel("Number of Spins")
+    plt.ylabel("Winnings")
     plt.legend(['median','above line','below line'])
     plt.show()
 
