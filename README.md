@@ -34,12 +34,12 @@ To install the required packages, use:
 
 ```bash
 pip install numpy matplotlib
-
+```
 ```Usage
 To run the simulations, clone this repository and run the provided Python script:
-
+```
 ```bash
 git clone https://github.com/yourusername/martingale-roulette-simulation.git
 cd martingale-roulette-simulation
 python martingale_simulation.py
-
+```
