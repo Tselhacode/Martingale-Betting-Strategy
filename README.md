@@ -58,11 +58,11 @@ Several graphs are generated to visualize the simulation results:
 Displays the results of 10 episodes, each consisting of 1000 sequential spins. It plots the player's winnings over time.
 
 ### Figure 2 & 3 - Mean and Median Analysis (Unlimited Funds)
-### Figure 2: Plots the mean winnings with upper and lower bounds (standard deviation) across 1000 episodes of 1000 spins.
-### Figure 3: Plots the median winnings with upper and lower bounds (standard deviation) across 1000 episodes of 1000 spins.
+#### Figure 2: Plots the mean winnings with upper and lower bounds (standard deviation) across 1000 episodes of 1000 spins.
+#### Figure 3: Plots the median winnings with upper and lower bounds (standard deviation) across 1000 episodes of 1000 spins.
 ### Figure 4 & 5 - Mean and Median Analysis (Limited Funds)
-# Figure 4: Similar to Figure 2 but for the limited funds scenario.
-# Figure 5: Similar to Figure 3 but for the limited funds scenario.
+#### Figure 4: Similar to Figure 2 but for the limited funds scenario.
+#### Figure 5: Similar to Figure 3 but for the limited funds scenario.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
