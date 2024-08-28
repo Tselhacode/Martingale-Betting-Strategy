@@ -1,4 +1,5 @@
-Martingale Betting Strategy Simulation
+###Martingale Betting Strategy Simulation
+
 This project simulates the Martingale betting strategy on American Roulette, where the player bets on black. The simulation explores both unlimited and limited bankroll scenarios, providing insights into the effectiveness and risks of the Martingale system.
 
 Table of Contents
